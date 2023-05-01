@@ -12,6 +12,11 @@
             Shapes shapes=new Shapes();
             shapes.calculateArea(10, 20);
             shapes.getColor();
+            //Access Modifiers
+            DeriveClass deriveClass= new DeriveClass();
+            deriveClass.DerivedMethod();
+            deriveClass.PublicMethod();
+            deriveClass.PublicMethodFour();
         }
     }
 }
