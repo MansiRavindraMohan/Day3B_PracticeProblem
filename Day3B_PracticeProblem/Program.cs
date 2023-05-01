@@ -4,9 +4,14 @@
     {
         public static void Main(string[] args)
         {
+            //Constructor Example
             TypesConstructors typesConstructors = new TypesConstructors();
             TypesConstructors types=new TypesConstructors(145,"Mansi");
             TypesConstructors typesTwo = new TypesConstructors(types);
+            //Interface Example
+            Shapes shapes=new Shapes();
+            shapes.calculateArea(10, 20);
+            shapes.getColor();
         }
     }
 }
